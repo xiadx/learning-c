@@ -14,5 +14,8 @@ int main() {
     cout << "top: " << pq.top() << endl;
     pq.push(6);
     cout << "top: " << pq.top() << endl;
+    cout << "=================" <<endl;
+    priority_queue<int, vector<int>, greater<int>> gpq(array.begin(), array.end());
+    cout << "top: " << gpq.top() << endl;
     return 0;
 }
